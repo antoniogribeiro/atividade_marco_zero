@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+}
 .title{
+    margin: 20px;
     text-align: center;
     font-size: 30px;
+}
+
+.title-page{
+    text-align: center;
 }
 
 .text{
@@ -10,17 +18,26 @@
 
 .imagens .fotos_infor{
     display: flex;
-    justify-content: center;
     gap: 10px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
+p {
+    margin: 10px;
+}
+
+h2{
+    margin-left: 10px
+}
 img {
     width: 300px;
     height: 300px;
     border-radius: 20px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 10);
     margin: 10px;
+    justify-content: center;
+    align-items: center;
     }
 
 footer {
